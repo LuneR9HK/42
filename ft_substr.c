@@ -23,8 +23,8 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	size = 0;
 	if ((!s || ft_strlen(s) < start))
 		return (ft_strdup(""));
-	if (len > ft_strlen(s))
-		size = ft_strlen(s);
+	if (len > ft_strlen(s) - start)
+		size = ft_strlen(s) - start;
 	else
 		size = len;
 	str = (char *)malloc((size + 1) * sizeof(char));

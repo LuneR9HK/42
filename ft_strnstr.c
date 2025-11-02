@@ -34,18 +34,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-
-#include <bsd/string.h>
-#include <stdlib.h>
-#include <stdio.h>
-int	main(void)
-{
-	char *str;
-	char *big = "supravim n'est pas un IDE";
-	char *little = "vim";
-	
-	str = ft_strnstr(big, little, 8);
-	
-	printf("%s", str);
-	return (0);
-}

@@ -16,7 +16,7 @@ static int	ft_int_len(int *n, int *i)
 	int	len;
 	int	tmp;
 
-	*(i) = 0;
+	*i = 0;
 	tmp = *n;
 	len = 0;
 	if (*n == 0)
@@ -41,15 +41,15 @@ char	*ft_itoa(int n)
 	int		len;
 	int		i;
 
+	if (n == -2147483648)
+	{
+		tab = ft_strdup("-2147483648");
+		return (tab);
+	}
 	len = ft_int_len(&n, &i);
 	tab = (char *)malloc(sizeof(char) * (len + 1));
 	if (!tab)
 		return (NULL);
-	if (n == -2147483648)
-	{
-		tab = "-2147483648";
-		return (tab);
-	}
 	if (i != 0)
 		tab[0] = '-';
 	tab[len] = '\0';
