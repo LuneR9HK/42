@@ -1,0 +1,158 @@
+[
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_putchar.c", "-o", "src/ft_putchar.o"],
+	"file": "src/ft_putchar.c",
+	"output": "src/ft_putchar.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_putstr.c", "-o", "src/ft_putstr.o"],
+	"file": "src/ft_putstr.c",
+	"output": "src/ft_putstr.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_putnbr_base.c", "-o", "src/ft_putnbr_base.o"],
+	"file": "src/ft_putnbr_base.c",
+	"output": "src/ft_putnbr_base.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_strlen.c", "-o", "src/ft_strlen.o"],
+	"file": "src/ft_strlen.c",
+	"output": "src/ft_strlen.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_format.c", "-o", "src/ft_format.o"],
+	"file": "src/ft_format.c",
+	"output": "src/ft_format.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_printf.c", "-o", "src/ft_printf.o"],
+	"file": "src/ft_printf.c",
+	"output": "src/ft_printf.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_char.c", "-o", "src/ft_print_char.o"],
+	"file": "src/ft_print_char.c",
+	"output": "src/ft_print_char.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_str.c", "-o", "src/ft_print_str.o"],
+	"file": "src/ft_print_str.c",
+	"output": "src/ft_print_str.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_ptr.c", "-o", "src/ft_print_ptr.o"],
+	"file": "src/ft_print_ptr.c",
+	"output": "src/ft_print_ptr.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_nbr.c", "-o", "src/ft_print_nbr.o"],
+	"file": "src/ft_print_nbr.c",
+	"output": "src/ft_print_nbr.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_hex.c", "-o", "src/ft_print_hex.o"],
+	"file": "src/ft_print_hex.c",
+	"output": "src/ft_print_hex.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_unsigned.c", "-o", "src/ft_print_unsigned.o"],
+	"file": "src/ft_print_unsigned.c",
+	"output": "src/ft_print_unsigned.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_percent.c", "-o", "src/ft_print_percent.o"],
+	"file": "src/ft_print_percent.c",
+	"output": "src/ft_print_percent.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_putchar.c", "-o", "src/ft_putchar.o"],
+	"file": "src/ft_putchar.c",
+	"output": "src/ft_putchar.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_putstr.c", "-o", "src/ft_putstr.o"],
+	"file": "src/ft_putstr.c",
+	"output": "src/ft_putstr.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_putnbr_base.c", "-o", "src/ft_putnbr_base.o"],
+	"file": "src/ft_putnbr_base.c",
+	"output": "src/ft_putnbr_base.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_strlen.c", "-o", "src/ft_strlen.o"],
+	"file": "src/ft_strlen.c",
+	"output": "src/ft_strlen.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_format.c", "-o", "src/ft_format.o"],
+	"file": "src/ft_format.c",
+	"output": "src/ft_format.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_printf.c", "-o", "src/ft_printf.o"],
+	"file": "src/ft_printf.c",
+	"output": "src/ft_printf.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_char.c", "-o", "src/ft_print_char.o"],
+	"file": "src/ft_print_char.c",
+	"output": "src/ft_print_char.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_str.c", "-o", "src/ft_print_str.o"],
+	"file": "src/ft_print_str.c",
+	"output": "src/ft_print_str.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_ptr.c", "-o", "src/ft_print_ptr.o"],
+	"file": "src/ft_print_ptr.c",
+	"output": "src/ft_print_ptr.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_nbr.c", "-o", "src/ft_print_nbr.o"],
+	"file": "src/ft_print_nbr.c",
+	"output": "src/ft_print_nbr.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_hex.c", "-o", "src/ft_print_hex.o"],
+	"file": "src/ft_print_hex.c",
+	"output": "src/ft_print_hex.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_unsigned.c", "-o", "src/ft_print_unsigned.o"],
+	"file": "src/ft_print_unsigned.c",
+	"output": "src/ft_print_unsigned.o"
+},
+{
+	"directory": "/home/gaemoill/Documents/42/libftprintf",
+	"arguments": ["cc", "-g", "-Wall", "-Werror", "-Wextra", "-c", "src/ft_print_percent.c", "-o", "src/ft_print_percent.o"],
+	"file": "src/ft_print_percent.c",
+	"output": "src/ft_print_percent.o"
+}
+]
