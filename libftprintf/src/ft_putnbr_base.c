@@ -14,9 +14,12 @@
 int	ft_putnbr_base(unsigned long nbr, const char *base)
 {
 	unsigned long	base_len;
+	int				i;
 
+	i = 0;
 	base_len = ft_strlen((char *)base);
 	if (nbr >= base_len)
-		ft_putnbr_base(nbr / base_len, base);
-	return (ft_putchar(base[nbr % base_len]));
+		i += ft_putnbr_base(nbr / base_len, base);
+	i += ft_putchar(base[nbr % base_len]);
+	return (i);
 }

@@ -14,19 +14,15 @@
 int	ft_print_hex_lower(va_list args)
 {
 	unsigned int	nbr;
-	const char		*base;
 
 	nbr = va_arg(args, unsigned int);
-	base = "0123456789abcdef";
-	return (ft_putnbr_base(nbr, base));
+	return (ft_putnbr_base(nbr, "0123456789abcdef"));
 }
 
 int	ft_print_hex_upper(va_list args)
 {
 	unsigned int	nbr;
-	const char		*base;
 
 	nbr = va_arg(args, unsigned int);
-	base = "0123456789ABCDEF";
-	return (ft_putnbr_base(nbr, base));
+	return (ft_putnbr_base(nbr, "0123456789ABCDEF"));
 }

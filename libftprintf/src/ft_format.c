@@ -13,25 +13,25 @@
 
 int	ft_format(char spe, va_list args)
 {
-	t_handler	handlers[9];
-	const char	*conv;
-	int			i;
+	int				i;	
+	const char		g_conv_tab[9] = "cspdiuxX%";
+	const t_handler	g_handler_tab[9] = {
+		&ft_print_char,
+		&ft_print_str,
+		&ft_print_ptr,
+		&ft_print_nbr,
+		&ft_print_nbr,
+		&ft_print_unsigned,
+		&ft_print_hex_lower,
+		&ft_print_hex_upper,
+		&ft_print_percent,
+	};
 
-	conv = "cspdiuxX%";
-	handlers[0] = &ft_print_char;
-	handlers[1] = &ft_print_str;
-	handlers[2] = &ft_print_ptr;
-	handlers[3] = &ft_print_nbr;
-	handlers[4] = &ft_print_nbr;
-	handlers[5] = &ft_print_unsigned;
-	handlers[6] = &ft_print_hex_lower;
-	handlers[7] = &ft_print_hex_upper;
-	handlers[8] = &ft_print_percent;
 	i = 0;
-	while (conv[i])
+	while (g_conv_tab[i])
 	{
-		if (spe == conv[i])
-			return (handlers[i](args));
+		if (spe == g_conv_tab[i])
+			return (g_handler_tab[i](args));
 		i++;
 	}
 	return (0);

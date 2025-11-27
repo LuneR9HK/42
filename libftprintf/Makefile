@@ -2,9 +2,7 @@ NAME = libftprintf.a
 
 CC = cc
 
-CFLAGS = -g -Wall -Werror -Wextra
-
-#SRC_DIR = ./src
+CFLAGS = -g -Wall -Werror -Wextra -I include
 
 SRC = src/ft_putchar.c\
 	  src/ft_putstr.c\

@@ -24,7 +24,7 @@ int	ft_print_ptr(va_list args)
 	if (ptr == NULL)
 		return (ft_putstr("(nil)"));
 	i = 0;
-	i = ft_putstr("x0");
+	i = ft_putstr("0x");
 	i += ft_putnbr_base(addr, ptr_base);
 	return (i);
 }

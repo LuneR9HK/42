@@ -15,7 +15,7 @@
 # include <unistd.h>
 # include <stdarg.h>
 
-typedef int	(*t_handler)(va_list args);
+typedef int		(*t_handler)(va_list args);
 
 int				ft_printf(const char *format, ...);
 int				ft_format(char spe, va_list args);
